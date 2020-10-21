@@ -26,6 +26,7 @@ for simplex in hull.simplices:
     plt.plot(p_24[simplex, 0], p_24[simplex, 1], 'k-')
 
 plt.title('Convex Hull')
-
+plt.xlabel('x')
+plt.ylabel('y')
 plt.show()
 
